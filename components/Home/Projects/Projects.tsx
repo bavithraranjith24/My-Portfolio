@@ -25,6 +25,19 @@ const Projects = () => {
           >
             NATOURS
           </a>
+          <p className="mt-6 text-gray-300">
+            Personal portfolio website built with Next.js 16. It serves as a
+            digital resume and project showcase, where I highlight my skills,
+            experiences, and key projects in frontend development.
+          </p>
+          <div className="mt-4 flex gap-2 items-center">
+            <p className="px-4 py-1.5 bg-blue-950 text-white text-sm sm:text-base font-bold rounded-full">
+              HTML
+            </p>
+            <p className="px-4 py-1.5 bg-blue-950 text-white text-sm sm:text-base font-bold rounded-full">
+              Taiwind CSS
+            </p>
+          </div>
         </div>
         {/* 2nd Project*/}
         <div>
@@ -41,6 +54,26 @@ const Projects = () => {
           >
             My-Portfolio
           </a>
+          <p className="mt-6 text-gray-300">
+            Natours is a responsive tour booking website designed to showcase
+            modern web design and development practices. The project focuses on
+            clean layouts, smooth animations, and a user-friendly interface to
+            present tour packages, features, and customer reviews. It
+            demonstrates strong skills in responsive design, reusable
+            components, and attention to user experience.
+          </p>
+
+          <div className="mt-4 flex gap-2 items-center">
+            <p className="px-4 py-1.5 bg-blue-950 text-white text-sm sm:text-base font-bold rounded-full">
+              Next JS
+            </p>
+            <p className="px-4 py-1.5 bg-blue-950 text-white text-sm sm:text-base font-bold rounded-full">
+              TypeScript
+            </p>
+            <p className="px-4 py-1.5 bg-blue-950 text-white text-sm sm:text-base font-bold rounded-full">
+              Tailwind
+            </p>
+          </div>
         </div>
       </div>
     </div>

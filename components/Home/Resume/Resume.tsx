@@ -16,7 +16,20 @@ const Resume = () => {
           <ResumeCard
             Icon={FaCodepen}
             role="PHP Programmer"
-            description="Experienced PHP developer with a strong foundation in backend development and database management."
+            date="Feb 2020– Sep 2020"
+            description={
+              <>
+                <p className="mb-2">
+                  Experienced PHP developer with a strong foundation in backend
+                  development and database management.
+                </p>
+                <ul>
+                  <li>Vyo CRM,</li>
+                  <li> Sriram Matrimony,</li>
+                  <li>Faizzel Fashion Shop</li>
+                </ul>
+              </>
+            }
           />
         </div>
       </div>

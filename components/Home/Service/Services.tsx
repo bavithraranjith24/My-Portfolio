@@ -8,7 +8,7 @@ const Services = () => {
         Collebrate with brand <br /> and agencies to create <br />
         impactful results
       </h1>
-      <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
+      <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-20 items-center">
         <div>
           <ServiceCard
             icon="/images/s1.png"
@@ -28,7 +28,7 @@ const Services = () => {
           <ServiceCard
             icon="/images/s4.png"
             name="Development"
-            description="Designing interfaces that are intuitive, efficient, and enjoyable to use.Building responsive and interactive web applications using modern technologies with a focus on performance and user experience."
+            description="Designing interfaces that are intuitive, efficient, and enjoyable to use.Building responsive and interactive web applications using modern technologies with a focus on performance and user. Experienced in  HTML, CSS, JavaScript, React, and Next.js."
           />
         </div>
       </div>
