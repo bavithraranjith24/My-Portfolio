@@ -13,9 +13,11 @@ const Resume = () => {
           My Work <span className="text-cyan-200">Experience</span>
         </h1>
         <div className="mt-10">
-          <ResumeCard Icon={FaCodepen} role="Full-Stack Developer" />
-          <ResumeCard Icon={FaCodepen} role="Front-End Developer" />
-          <ResumeCard Icon={FaCodepen} role="Backend Developer" />
+          <ResumeCard
+            Icon={FaCodepen}
+            role="PHP Programmer"
+            description="Experienced PHP developer with a strong foundation in backend development and database management."
+          />
         </div>
       </div>
       {/*EDUCATION PART*/}
@@ -26,18 +28,18 @@ const Resume = () => {
         <div className="mt-10">
           <ResumeCard
             Icon={BiBadge}
-            role="Design institute"
-            date="jan 2023 - Dec 2024"
+            role="Master of Science in Computer Science"
+            date="Jun 2017 - May  2019"
           />
           <ResumeCard
             Icon={FaReact}
-            role="Bachelor in Computer Science"
-            date="jan 2023 - Dec 2024"
+            role="Bachelor of Science in Computer Science"
+            date="Jun 2014 - May 2017"
           />
           <ResumeCard
             Icon={BsDatabase}
-            role="Certificate in Niit"
-            date="Jan 2016"
+            role="Certificate in NIIT-in J2EE"
+            date="Jun 2019"
           />
         </div>
       </div>

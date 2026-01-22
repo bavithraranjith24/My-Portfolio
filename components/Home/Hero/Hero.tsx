@@ -11,7 +11,7 @@ const Hero = () => {
       <ParticlesHero />
       <div className="relative z-10 flex flex-col items-center">
         <Image
-          src="/images/bavi.jpg"
+          src="/images/br-1.png"
           alt="heroimage"
           width={150}
           height={150}
@@ -43,7 +43,9 @@ const Hero = () => {
           </span>
         </h2>
         <button className="mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
-          <span>See my work</span>
+          <a href="#Projects" className="text-white">
+            See my work
+          </a>
           <BsArrowRight className="w-5 h-5 ml-2 inline-block" />
         </button>
       </div>

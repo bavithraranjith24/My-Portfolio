@@ -5,9 +5,10 @@ type Props = {
   role: string;
   Icon: IconType;
   date?: string;
+  description?: string;
 };
 
-const ResumeCard = ({ Icon, role, date }: Props) => {
+const ResumeCard = ({ Icon, role, date, description }: Props) => {
   return (
     <div className="mb-6">
       <div className="flex items-start space-x-6 bg-blue-950/20 transition-all duration-300 p-4 sm:p-8 rounded-md">
@@ -24,8 +25,7 @@ const ResumeCard = ({ Icon, role, date }: Props) => {
             {role}
           </h1>
           <p className="text-gray-300 text-sm sm:text-base pt-3">
-            fdsgdshdfjhfghjifhiehgjkdbfve uhrunjkfhiuhasdfjbskdjavhoiuadyf
-            iuweayriuahfbaiuyhawre7uy sdkjfbsdh{" "}
+            {description}
           </p>
         </div>
       </div>

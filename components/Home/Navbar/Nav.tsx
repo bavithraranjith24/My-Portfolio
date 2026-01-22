@@ -55,13 +55,14 @@ const Nav = ({ openNav }: Props) => {
         {/* button */}
         <div className="flex item-center space-x-4">
           {/* CV button */}
-          <button
+          <a
+            href="https://drive.google.com/file/d/1QmePusAX97tULYdo3HgvTf1w2g1U2VIu/view?usp=drive_link"
             className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900
           transition-all duration-300 text-white flex items-center space-x-2"
           >
             <BiDownload className="w-5 h-5" />
             <span>Download CV</span>
-          </button>
+          </a>
           {/* Burger Menu */}
           <HiBars3BottomRight
             onClick={openNav}

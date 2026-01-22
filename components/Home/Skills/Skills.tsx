@@ -14,31 +14,27 @@ const skills = [
   {
     name: "JavaScript",
     icon: <SiJavascript />,
-    percentage: 89,
   },
   {
     name: "React.Js",
     icon: <SiReact />,
-    percentage: 90,
   },
   {
     name: "Next.Js",
     icon: <SiNextdotjs />,
   },
-  {
-    name: "Node,Js",
-    icon: <SiNodedotjs />,
-    percentage: 94,
-  },
+  // {
+  //   name: "Node,Js",
+  //   icon: <SiNodedotjs />,
+  //   percentage: 94,
+  // },
   {
     name: "Tailwind CSS",
     icon: <SiTailwindcss />,
-    percentage: 85,
   },
   {
     name: "TypeScript",
     icon: <SiTypescript />,
-    percentage: 86,
   },
 ];
 
@@ -55,7 +51,7 @@ const Skills = () => {
             <Tilt key={skil.name} scale={1.5} transitionSpeed={400}>
               <div className="bg-[#14134145] text-center w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition hover:scale-105">
                 <div className="text-5xl mb-4 text-gray-300 ">{skil.icon}</div>
-                <p className="text-2xl font-semibold">{skil.percentage}%</p>
+
                 <p className="text-purple-400 mt-1">{skil.name}</p>
               </div>
             </Tilt>
